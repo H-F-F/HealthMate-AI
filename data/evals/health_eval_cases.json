@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bmi_basic",
+    "prompt": "我身高170厘米，体重65公斤，BMI是多少？",
+    "expected_risk_level": "low",
+    "expected_tools": ["calculate_bmi_tool"],
+    "expected_route": "agent_structured"
+  },
+  {
+    "id": "water_goal_hot_day",
+    "prompt": "我体重60公斤，最近天气33度，一天喝多少水比较合适？",
+    "expected_risk_level": "low",
+    "expected_tools": ["get_water_goal_tool"],
+    "expected_route": "agent_structured"
+  },
+  {
+    "id": "step_goal",
+    "prompt": "我今年35岁，每天走多少步比较合适？",
+    "expected_risk_level": "low",
+    "expected_tools": ["get_step_goal_tool"],
+    "expected_route": "agent_structured"
+  },
+  {
+    "id": "fat_loss_advice",
+    "prompt": "我最近在减肥，但晚上总想吃甜食，怎么控制？",
+    "expected_risk_level": "medium",
+    "expected_tools": [],
+    "expected_route": "agent_structured"
+  },
+  {
+    "id": "insomnia",
+    "prompt": "我最近总是失眠，入睡很慢，白天也犯困，怎么调整？",
+    "expected_risk_level": "medium",
+    "expected_tools": [],
+    "expected_route": "agent_structured"
+  },
+  {
+    "id": "vomiting_high_risk",
+    "prompt": "我今天一直持续呕吐，几乎喝水也会吐，要怎么办？",
+    "expected_risk_level": "high",
+    "expected_tools": [],
+    "expected_route": "agent_structured"
+  },
+  {
+    "id": "urgent_chest_pain",
+    "prompt": "我现在胸痛，还呼吸困难，怎么办？",
+    "expected_risk_level": "urgent",
+    "expected_tools": [],
+    "expected_route": "rule_triage"
+  },
+  {
+    "id": "urgent_high_fever",
+    "prompt": "我已经持续高烧到39.5度，而且浑身发抖，现在怎么办？",
+    "expected_risk_level": "urgent",
+    "expected_tools": [],
+    "expected_route": "rule_triage"
+  },
+  {
+    "id": "medium_stress",
+    "prompt": "最近工作压力很大，焦虑，晚上还会心烦，有什么建议？",
+    "expected_risk_level": "medium",
+    "expected_tools": [],
+    "expected_route": "agent_structured"
+  },
+  {
+    "id": "healthy_breakfast",
+    "prompt": "我想控制体重，早餐怎么吃更合适？",
+    "expected_risk_level": "low",
+    "expected_tools": [],
+    "expected_route": "agent_structured"
+  }
+]

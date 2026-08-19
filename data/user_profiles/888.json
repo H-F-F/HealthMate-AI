@@ -1,0 +1,55 @@
+{
+  "weight_plan": {
+    "current": 80.0,
+    "target": 65.0,
+    "months": 8,
+    "lost": 2.8,
+    "age": 28,
+    "height": 170.0,
+    "sex": "女"
+  },
+  "weather_state": {
+    "province": "陕西省",
+    "city": "汉中市",
+    "district": "汉台区",
+    "adcode": "610702",
+    "weather": "多云",
+    "icon": "⛅",
+    "temp": 28,
+    "feels_like": 28,
+    "humidity": 33,
+    "wind_direction": "东",
+    "wind_power": "≤3级",
+    "wind": "东≤3级",
+    "uv": "中等",
+    "air": "良",
+    "pressure": 1013,
+    "date": "2026-04-18",
+    "weather_date": "2026-04-18"
+  },
+  "diet_log": {
+    "breakfast": "燕麦粥 30g + 水煮蛋 1个 + 苹果 1个",
+    "lunch": "鸡胸肉 150g + 糙米饭 半碗 + 蔬菜沙拉",
+    "dinner": "清蒸鱼 150g + 西兰花 + 小米粥 小碗",
+    "done": {
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true
+    },
+    "calories": {
+      "breakfast": 320,
+      "lunch": 520,
+      "dinner": 430
+    },
+    "macros": {
+      "protein": 65,
+      "carbs": 180,
+      "fat": 38
+    }
+  },
+  "daily_metrics": {
+    "steps_done": 4200,
+    "water_done": 800,
+    "sleep_hours": 7.2
+  }
+}
